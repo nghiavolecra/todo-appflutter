@@ -11,9 +11,8 @@
 🔗 [https://todo-fb699.web.app](https://todo-fb699.web.app)
 
 🖥️ Backend (NestJS API - Render):  
-🔗 https://<your-backend-endpoint>.onrender.com
+🔗 [https://<your-backend-endpoint>.onrender.com](https://todo-appflutter.onrender.com)
 
-> ⚠️ Replace above with actual backend URL
 
 ---
 
@@ -85,47 +84,6 @@ cd backend
 npm install
 npm run start:dev
 ```
-
-To deploy to Render:
-- Push code to GitHub
-- Go to https://render.com
-- Create new Web Service → select your backend repo → build command: `npm install && npm run build` → start command: `npm run start:prod`
-
----
-
-## 🔒 CORS Configuration (Backend)
-
-Make sure you allow cross-origin requests in your `main.ts` of NestJS:
-
-```ts
-app.enableCors({
-  origin: ['https://todo-fb699.web.app'],
-});
-```
-
----
-
-## 📸 Screenshots
-
-| Desktop UI                        | Mobile Responsive                  |
-|----------------------------------|------------------------------------|
-| ![](./screenshots/desktop.png)  | ![](./screenshots/mobile.png)      |
-
----
-
-## 🧠 Lessons Learned
-
-- How to integrate Flutter Web with external APIs
-- Using Firebase Hosting for static assets
-- Deploying a NestJS backend to Render with CORS
-
----
-
-## 📃 License
-
-MIT
-
----
 
 ## 🙌 Credits
 
